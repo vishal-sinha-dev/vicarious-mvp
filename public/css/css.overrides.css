@@ -1,0 +1,50 @@
+.lity {
+	background: rgba(255, 255, 255, .8);
+}
+
+.lity-content:after {
+	-webkit-box-shadow: 0 0;
+			box-shadow: 0 0;
+}
+
+.lity-close {
+	color: #000;
+	text-shadow: none;
+}
+
+@media (min-width: 640px) {
+	.lity-container {
+		max-width: 400px;
+	}
+}
+
+.lity-container {
+	/* overflow: scroll; */
+}
+
+.lity-container, .lity-content {
+	height: 100%;
+}
+
+.lightpick, .lightpick__month {
+	width: 100%!important;
+}
+
+.lightpick__day.is-end-date.is-in-range, .lightpick__day.is-start-date.is-in-range.is-flipped {
+	/* background-color: rgb(52 181 156 / var(--tw-bg-opacity)); */
+}
+
+select.lightpick__select.lightpick__select-months {
+	text-align: left;
+}
+
+button, .disable-double-tap-zoom {
+touch-action: manipulation;
+}
+
+@media (max-width: 850px) {
+	#date_button_text, #travelers_button_text {
+		font-size: 15px;
+	}
+	
+}
